@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, #fff8ef 0%, #f7eadb 100%);
+  color: #3e2a1f;
+}
+
+.barra-topo {
+  background-color: #6f3b17;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #ffd7b5 !important;
+}
+
+.hero-section {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #fff1de 0%, #f3d2ac 100%);
+}
+
+.texto-topo,
+.texto-secao {
+  color: #9a5c2e;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.titulo-principal {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #5a2d0c;
+  margin-bottom: 18px;
+}
+
+.texto-principal {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #6d4b35;
+}
+
+.botao-principal {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.botao-principal:hover {
+  background-color: #6f3610;
+  color: white;
+}
+
+.imagem-destaque {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+h2 {
+  color: #5a2d0c;
+  font-weight: 700;
+}
+
+.cartao-lugar {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #fffdf9;
+  transition: transform 0.2s ease;
+}
+
+.cartao-lugar:hover {
+  transform: translateY(-6px);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #5a2d0c;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #6d4b35;
+  line-height: 1.6;
+}
+
+.secao-sobre {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.caixa-info {
+  background-color: #fffaf4;
+  border-left: 5px solid #8b4513;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.caixa-info ul {
+  padding-left: 20px;
+}
+
+.caixa-info li {
+  margin-bottom: 10px;
+  color: #5c4333;
+}
+
+.rodape {
+  background-color: #6f3b17;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .titulo-principal {
+    font-size: 2.4rem;
+  }
+
+  .hero-section {
+    min-height: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .texto-principal {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .titulo-principal {
+    font-size: 2rem;
+  }
+
+  .texto-principal {
+    font-size: 1rem;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+}
