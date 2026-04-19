@@ -9,7 +9,7 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 ## Informações Gerais
 
 - Nome: Davi Martins Alves
-- Matricula:
+- Matricula: 917012
 - Proposta de projeto escolhida: Sabores e Caminhos de Belo Horizonte
 - Breve descrição sobre seu projeto: Este projeto apresenta pontos turísticos e experiências culturais da cidade de Belo Horizonte. A página foi desenvolvida utilizando HTML, CSS e framework Bootstrap, com foco responsividade e organização visual.
 
